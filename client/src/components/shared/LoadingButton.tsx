@@ -19,7 +19,7 @@ const LoadingButton = ({
       className={cn("flex items-center gap-2", className)}
       {...props}
     >
-      {loading && <Loader2 className="size-5 animate-spin " />}
+      {loading && <Loader2 className="size-5 animate-spin curso" />}
       {props.children}
     </Button>
   );
